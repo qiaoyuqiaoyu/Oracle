@@ -1,11 +1,13 @@
 (a) 8 commits
 (b) Aug 20, 2015, 6:05PM
-(c) .gitattributes, .gitignore, .classpath, .project, README.txt, HardwoodSeller.java  
+(c) git log --stat --all --until='21 Aug 2015'
+    .gitignore, .classpath, .project, README.txt, src/controller/HardwoodSeller.java, 
+    src/model/WoodItem.java 
 (d) 2 commits for model: one on Mon Aug 24, and another one on Thu Aug 20;
     1 commit for controller on Aug 20 2015.  
 (e) git status used to check how the repository status has changed since last command. 
     git log is used to look the commit history. It lists the commits in that repository
     in chronological order.
-(f) git log --name-only
-(g) git log --grep="transaction"
-(h) git log --author="Lauren" --after="2015-1-5" --before="2015-6-14"  
+(f) git log --all --grep="main.java"
+(g) git log --grep="transaction" -i
+(h) git log --author="Lauren" --since="2015-1-5" --before="2015-6-14"  
